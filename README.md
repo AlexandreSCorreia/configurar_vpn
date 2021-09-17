@@ -24,7 +24,24 @@ assim ele cria apenas uma vpn com um servidor valido.
 dependendo do caso será com o servidor padrao
 * Se tiver apenas uma vpn configurada, o software irá excluir a vpn e criar uma com um servidor diferente
 
+## Configuração Add-VpnConnection
+
+-Name "Nome da VPN" </br>
+-ServerAddress "IP"</br>
+ -TunnelType "L2tp" </br>
+-EncryptionLevel "Required" </br>
+-AuthenticationMethod MSChapv2 </br>
+-SplitTunneling </br>
+-AllUserConnection </br>
+-L2tpPsk "Chave para conexão" </br>
+-Force </br>
+-RememberCredential</br>
+-PassThru
+
 
 ## Projeto JavaFX com a linguagem Java
 
 Referência, comandos powershell [Clique Aqui](https://docs.microsoft.com/en-us/powershell/module/vpnclient/add-vpnconnection?view=windowsserver2019-ps)
+
+
+
